@@ -1784,7 +1784,15 @@ h6 {
 }
 
 #google-form iframe {
-  width: 50vw;
+  width: 70vw;
   overflow: visible;
   height: 150vh;
+}
+
+@media (max-width: 600px)
+{
+  #google-form iframe {
+    font-size: smaller;
+    width: 90vw;
+  }
 }
