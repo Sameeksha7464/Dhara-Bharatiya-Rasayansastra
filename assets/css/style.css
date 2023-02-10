@@ -538,7 +538,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: #851a43;
+  color: #e27689;
 }
 
 @media (max-width: 991px) {
@@ -1743,4 +1743,10 @@ h6 {
   position: relative;
   height: 100%;
   
+}
+
+#google-form iframe {
+  width: 50vw;
+  overflow: visible;
+  height: 150vh;
 }
